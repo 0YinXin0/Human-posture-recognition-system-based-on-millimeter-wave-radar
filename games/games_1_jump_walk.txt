@@ -1,0 +1,7 @@
+walk
+jump
+walk
+jump
+walk
+
+end

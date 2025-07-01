@@ -1,0 +1,5 @@
+jump
+waveleftarm
+waverightarm
+walk
+wavearms

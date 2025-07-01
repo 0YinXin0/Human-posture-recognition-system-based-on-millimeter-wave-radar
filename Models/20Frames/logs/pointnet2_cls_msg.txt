@@ -1,0 +1,266 @@
+2025-06-20 13:44:17,737 - Model - INFO - PARAMETER ...
+2025-06-20 13:44:17,737 - Model - INFO - Namespace(use_cpu=True, gpu='0', batch_size=16, model='pointnet2_cls_msg', num_category=5, epoch=50, learning_rate=0.001, num_point=1024, optimizer='Adam', log_dir=None, decay_rate=0.0001, use_normals=False, process_data=False, use_uniform_sample=False)
+2025-06-20 13:44:17,738 - Model - INFO - Load dataset ...
+2025-06-20 13:44:17,758 - Model - INFO - No existing model, starting training from scratch...
+2025-06-20 13:44:19,155 - Model - INFO - Start training...
+2025-06-20 13:44:19,155 - Model - INFO - Epoch 1 (1/50):
+2025-06-20 13:45:33,371 - Model - INFO - Train Instance Accuracy: 0.545833
+2025-06-20 13:45:39,136 - Model - INFO - Test Instance Accuracy: 0.390625, Class Accuracy: 0.200000
+2025-06-20 13:45:39,136 - Model - INFO - Best Instance Accuracy: 0.390625, Class Accuracy: 0.200000
+2025-06-20 13:45:39,136 - Model - INFO - Save model...
+2025-06-20 13:45:39,136 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 13:45:39,189 - Model - INFO - Epoch 2 (2/50):
+2025-06-20 13:46:49,938 - Model - INFO - Train Instance Accuracy: 0.725000
+2025-06-20 13:46:55,778 - Model - INFO - Test Instance Accuracy: 0.437500, Class Accuracy: 0.266667
+2025-06-20 13:46:55,779 - Model - INFO - Best Instance Accuracy: 0.437500, Class Accuracy: 0.266667
+2025-06-20 13:46:55,779 - Model - INFO - Save model...
+2025-06-20 13:46:55,779 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 13:46:55,813 - Model - INFO - Epoch 3 (3/50):
+2025-06-20 13:48:08,115 - Model - INFO - Train Instance Accuracy: 0.837500
+2025-06-20 13:48:14,003 - Model - INFO - Test Instance Accuracy: 0.390625, Class Accuracy: 0.200000
+2025-06-20 13:48:14,003 - Model - INFO - Best Instance Accuracy: 0.437500, Class Accuracy: 0.266667
+2025-06-20 13:48:14,003 - Model - INFO - Epoch 4 (4/50):
+2025-06-20 13:49:29,256 - Model - INFO - Train Instance Accuracy: 0.883333
+2025-06-20 13:49:35,733 - Model - INFO - Test Instance Accuracy: 0.625000, Class Accuracy: 0.492388
+2025-06-20 13:49:35,733 - Model - INFO - Best Instance Accuracy: 0.625000, Class Accuracy: 0.492388
+2025-06-20 13:49:35,733 - Model - INFO - Save model...
+2025-06-20 13:49:35,733 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 13:49:35,765 - Model - INFO - Epoch 5 (5/50):
+2025-06-20 13:50:50,588 - Model - INFO - Train Instance Accuracy: 0.900000
+2025-06-20 13:50:56,481 - Model - INFO - Test Instance Accuracy: 0.906250, Class Accuracy: 0.946429
+2025-06-20 13:50:56,481 - Model - INFO - Best Instance Accuracy: 0.906250, Class Accuracy: 0.946429
+2025-06-20 13:50:56,481 - Model - INFO - Save model...
+2025-06-20 13:50:56,481 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 13:50:56,517 - Model - INFO - Epoch 6 (6/50):
+2025-06-20 13:52:11,155 - Model - INFO - Train Instance Accuracy: 0.862500
+2025-06-20 13:52:17,221 - Model - INFO - Test Instance Accuracy: 0.796875, Class Accuracy: 0.815260
+2025-06-20 13:52:17,221 - Model - INFO - Best Instance Accuracy: 0.906250, Class Accuracy: 0.946429
+2025-06-20 13:52:17,221 - Model - INFO - Epoch 7 (7/50):
+2025-06-20 13:53:29,277 - Model - INFO - Train Instance Accuracy: 0.908333
+2025-06-20 13:53:35,374 - Model - INFO - Test Instance Accuracy: 0.515625, Class Accuracy: 0.552309
+2025-06-20 13:53:35,374 - Model - INFO - Best Instance Accuracy: 0.906250, Class Accuracy: 0.946429
+2025-06-20 13:53:35,374 - Model - INFO - Epoch 8 (8/50):
+2025-06-20 13:54:49,548 - Model - INFO - Train Instance Accuracy: 0.908333
+2025-06-20 13:54:55,116 - Model - INFO - Test Instance Accuracy: 0.843750, Class Accuracy: 0.849747
+2025-06-20 13:54:55,116 - Model - INFO - Best Instance Accuracy: 0.906250, Class Accuracy: 0.946429
+2025-06-20 13:54:55,117 - Model - INFO - Epoch 9 (9/50):
+2025-06-20 13:56:07,991 - Model - INFO - Train Instance Accuracy: 0.908333
+2025-06-20 13:56:13,990 - Model - INFO - Test Instance Accuracy: 0.875000, Class Accuracy: 0.907143
+2025-06-20 13:56:13,991 - Model - INFO - Best Instance Accuracy: 0.906250, Class Accuracy: 0.946429
+2025-06-20 13:56:13,991 - Model - INFO - Epoch 10 (10/50):
+2025-06-20 13:57:28,474 - Model - INFO - Train Instance Accuracy: 0.900000
+2025-06-20 13:57:34,379 - Model - INFO - Test Instance Accuracy: 0.812500, Class Accuracy: 0.756890
+2025-06-20 13:57:34,379 - Model - INFO - Best Instance Accuracy: 0.906250, Class Accuracy: 0.946429
+2025-06-20 13:57:34,379 - Model - INFO - Epoch 11 (11/50):
+2025-06-20 13:58:49,656 - Model - INFO - Train Instance Accuracy: 0.950000
+2025-06-20 13:58:55,861 - Model - INFO - Test Instance Accuracy: 0.875000, Class Accuracy: 0.902273
+2025-06-20 13:58:55,861 - Model - INFO - Best Instance Accuracy: 0.906250, Class Accuracy: 0.946429
+2025-06-20 13:58:55,861 - Model - INFO - Epoch 12 (12/50):
+2025-06-20 14:00:09,549 - Model - INFO - Train Instance Accuracy: 0.900000
+2025-06-20 14:00:15,908 - Model - INFO - Test Instance Accuracy: 0.937500, Class Accuracy: 0.975000
+2025-06-20 14:00:15,909 - Model - INFO - Best Instance Accuracy: 0.937500, Class Accuracy: 0.975000
+2025-06-20 14:00:15,909 - Model - INFO - Save model...
+2025-06-20 14:00:15,909 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:00:15,943 - Model - INFO - Epoch 13 (13/50):
+2025-06-20 14:01:31,183 - Model - INFO - Train Instance Accuracy: 0.933333
+2025-06-20 14:01:37,001 - Model - INFO - Test Instance Accuracy: 0.906250, Class Accuracy: 0.952778
+2025-06-20 14:01:37,002 - Model - INFO - Best Instance Accuracy: 0.937500, Class Accuracy: 0.975000
+2025-06-20 14:01:37,002 - Model - INFO - Epoch 14 (14/50):
+2025-06-20 14:02:52,173 - Model - INFO - Train Instance Accuracy: 0.966667
+2025-06-20 14:02:58,212 - Model - INFO - Test Instance Accuracy: 0.937500, Class Accuracy: 0.975000
+2025-06-20 14:02:58,212 - Model - INFO - Best Instance Accuracy: 0.937500, Class Accuracy: 0.975000
+2025-06-20 14:02:58,213 - Model - INFO - Save model...
+2025-06-20 14:02:58,213 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:02:58,255 - Model - INFO - Epoch 15 (15/50):
+2025-06-20 14:04:12,557 - Model - INFO - Train Instance Accuracy: 0.925000
+2025-06-20 14:04:18,473 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:04:18,473 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:04:18,473 - Model - INFO - Save model...
+2025-06-20 14:04:18,473 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:04:18,507 - Model - INFO - Epoch 16 (16/50):
+2025-06-20 14:05:32,602 - Model - INFO - Train Instance Accuracy: 0.941667
+2025-06-20 14:05:38,449 - Model - INFO - Test Instance Accuracy: 0.937500, Class Accuracy: 0.975000
+2025-06-20 14:05:38,449 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:05:38,449 - Model - INFO - Epoch 17 (17/50):
+2025-06-20 14:06:52,537 - Model - INFO - Train Instance Accuracy: 0.962500
+2025-06-20 14:06:58,490 - Model - INFO - Test Instance Accuracy: 0.937500, Class Accuracy: 0.975000
+2025-06-20 14:06:58,490 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:06:58,491 - Model - INFO - Epoch 18 (18/50):
+2025-06-20 14:08:13,307 - Model - INFO - Train Instance Accuracy: 0.954167
+2025-06-20 14:08:19,326 - Model - INFO - Test Instance Accuracy: 0.953125, Class Accuracy: 0.933333
+2025-06-20 14:08:19,326 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:08:19,326 - Model - INFO - Epoch 19 (19/50):
+2025-06-20 14:09:33,629 - Model - INFO - Train Instance Accuracy: 0.958333
+2025-06-20 14:09:39,498 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:09:39,498 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:09:39,498 - Model - INFO - Save model...
+2025-06-20 14:09:39,499 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:09:39,531 - Model - INFO - Epoch 20 (20/50):
+2025-06-20 14:10:53,825 - Model - INFO - Train Instance Accuracy: 0.962500
+2025-06-20 14:10:59,995 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:10:59,995 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:10:59,995 - Model - INFO - Save model...
+2025-06-20 14:10:59,996 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:11:00,033 - Model - INFO - Epoch 21 (21/50):
+2025-06-20 14:12:12,484 - Model - INFO - Train Instance Accuracy: 0.945833
+2025-06-20 14:12:18,338 - Model - INFO - Test Instance Accuracy: 0.937500, Class Accuracy: 0.975000
+2025-06-20 14:12:18,339 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:12:18,339 - Model - INFO - Epoch 22 (22/50):
+2025-06-20 14:13:30,626 - Model - INFO - Train Instance Accuracy: 0.970833
+2025-06-20 14:13:36,615 - Model - INFO - Test Instance Accuracy: 0.921875, Class Accuracy: 0.894048
+2025-06-20 14:13:36,615 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:13:36,615 - Model - INFO - Epoch 23 (23/50):
+2025-06-20 14:14:51,154 - Model - INFO - Train Instance Accuracy: 0.962500
+2025-06-20 14:14:57,347 - Model - INFO - Test Instance Accuracy: 0.937500, Class Accuracy: 0.975000
+2025-06-20 14:14:57,347 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:14:57,347 - Model - INFO - Epoch 24 (24/50):
+2025-06-20 14:16:12,384 - Model - INFO - Train Instance Accuracy: 0.962500
+2025-06-20 14:16:18,708 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:16:18,708 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:16:18,708 - Model - INFO - Save model...
+2025-06-20 14:16:18,708 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:16:18,743 - Model - INFO - Epoch 25 (25/50):
+2025-06-20 14:17:31,885 - Model - INFO - Train Instance Accuracy: 0.962500
+2025-06-20 14:17:38,205 - Model - INFO - Test Instance Accuracy: 0.984375, Class Accuracy: 0.988889
+2025-06-20 14:17:38,205 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:17:38,205 - Model - INFO - Epoch 26 (26/50):
+2025-06-20 14:18:50,573 - Model - INFO - Train Instance Accuracy: 0.954167
+2025-06-20 14:18:56,347 - Model - INFO - Test Instance Accuracy: 0.937500, Class Accuracy: 0.975000
+2025-06-20 14:18:56,347 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:18:56,347 - Model - INFO - Epoch 27 (27/50):
+2025-06-20 14:20:10,056 - Model - INFO - Train Instance Accuracy: 0.983333
+2025-06-20 14:20:15,943 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:20:15,943 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:20:15,943 - Model - INFO - Save model...
+2025-06-20 14:20:15,943 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:20:15,976 - Model - INFO - Epoch 28 (28/50):
+2025-06-20 14:21:29,585 - Model - INFO - Train Instance Accuracy: 0.979167
+2025-06-20 14:21:35,667 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:21:35,667 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:21:35,667 - Model - INFO - Save model...
+2025-06-20 14:21:35,667 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:21:35,704 - Model - INFO - Epoch 29 (29/50):
+2025-06-20 14:22:50,771 - Model - INFO - Train Instance Accuracy: 0.970833
+2025-06-20 14:22:56,645 - Model - INFO - Test Instance Accuracy: 0.968750, Class Accuracy: 0.963492
+2025-06-20 14:22:56,645 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:22:56,645 - Model - INFO - Epoch 30 (30/50):
+2025-06-20 14:24:09,564 - Model - INFO - Train Instance Accuracy: 0.966667
+2025-06-20 14:24:15,168 - Model - INFO - Test Instance Accuracy: 0.984375, Class Accuracy: 0.981818
+2025-06-20 14:24:15,168 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:24:15,168 - Model - INFO - Epoch 31 (31/50):
+2025-06-20 14:25:28,611 - Model - INFO - Train Instance Accuracy: 0.970833
+2025-06-20 14:25:34,319 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:25:34,319 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:25:34,319 - Model - INFO - Save model...
+2025-06-20 14:25:34,319 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:25:34,354 - Model - INFO - Epoch 32 (32/50):
+2025-06-20 14:26:45,028 - Model - INFO - Train Instance Accuracy: 0.962500
+2025-06-20 14:26:50,667 - Model - INFO - Test Instance Accuracy: 0.937500, Class Accuracy: 0.975000
+2025-06-20 14:26:50,668 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:26:50,668 - Model - INFO - Epoch 33 (33/50):
+2025-06-20 14:28:05,332 - Model - INFO - Train Instance Accuracy: 0.983333
+2025-06-20 14:28:11,315 - Model - INFO - Test Instance Accuracy: 0.906250, Class Accuracy: 0.952778
+2025-06-20 14:28:11,315 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:28:11,315 - Model - INFO - Epoch 34 (34/50):
+2025-06-20 14:29:21,501 - Model - INFO - Train Instance Accuracy: 0.954167
+2025-06-20 14:29:27,471 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:29:27,471 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:29:27,471 - Model - INFO - Save model...
+2025-06-20 14:29:27,471 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:29:27,510 - Model - INFO - Epoch 35 (35/50):
+2025-06-20 14:30:39,908 - Model - INFO - Train Instance Accuracy: 0.987500
+2025-06-20 14:30:45,740 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:30:45,740 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:30:45,740 - Model - INFO - Save model...
+2025-06-20 14:30:45,740 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:30:45,775 - Model - INFO - Epoch 36 (36/50):
+2025-06-20 14:31:58,328 - Model - INFO - Train Instance Accuracy: 0.966667
+2025-06-20 14:32:04,220 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:32:04,220 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:32:04,221 - Model - INFO - Save model...
+2025-06-20 14:32:04,221 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:32:04,258 - Model - INFO - Epoch 37 (37/50):
+2025-06-20 14:33:18,926 - Model - INFO - Train Instance Accuracy: 0.954167
+2025-06-20 14:33:24,636 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:33:24,637 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:33:24,637 - Model - INFO - Save model...
+2025-06-20 14:33:24,637 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:33:24,664 - Model - INFO - Epoch 38 (38/50):
+2025-06-20 14:34:36,526 - Model - INFO - Train Instance Accuracy: 0.975000
+2025-06-20 14:34:42,082 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:34:42,082 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:34:42,082 - Model - INFO - Save model...
+2025-06-20 14:34:42,082 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:34:42,109 - Model - INFO - Epoch 39 (39/50):
+2025-06-20 14:35:52,497 - Model - INFO - Train Instance Accuracy: 0.958333
+2025-06-20 14:35:58,081 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:35:58,081 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:35:58,081 - Model - INFO - Save model...
+2025-06-20 14:35:58,081 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:35:58,113 - Model - INFO - Epoch 40 (40/50):
+2025-06-20 14:37:09,621 - Model - INFO - Train Instance Accuracy: 0.958333
+2025-06-20 14:37:15,186 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:37:15,186 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:37:15,186 - Model - INFO - Save model...
+2025-06-20 14:37:15,186 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:37:15,221 - Model - INFO - Epoch 41 (41/50):
+2025-06-20 14:38:26,811 - Model - INFO - Train Instance Accuracy: 0.970833
+2025-06-20 14:38:32,423 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:38:32,423 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:38:32,423 - Model - INFO - Save model...
+2025-06-20 14:38:32,423 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:38:32,459 - Model - INFO - Epoch 42 (42/50):
+2025-06-20 14:39:44,226 - Model - INFO - Train Instance Accuracy: 0.966667
+2025-06-20 14:39:49,783 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:39:49,783 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:39:49,783 - Model - INFO - Save model...
+2025-06-20 14:39:49,783 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:39:49,820 - Model - INFO - Epoch 43 (43/50):
+2025-06-20 14:41:01,703 - Model - INFO - Train Instance Accuracy: 0.987500
+2025-06-20 14:41:07,229 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:41:07,229 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:41:07,229 - Model - INFO - Save model...
+2025-06-20 14:41:07,229 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:41:07,273 - Model - INFO - Epoch 44 (44/50):
+2025-06-20 14:42:18,331 - Model - INFO - Train Instance Accuracy: 0.970833
+2025-06-20 14:42:23,884 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:42:23,884 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:42:23,884 - Model - INFO - Save model...
+2025-06-20 14:42:23,884 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:42:23,927 - Model - INFO - Epoch 45 (45/50):
+2025-06-20 14:43:35,522 - Model - INFO - Train Instance Accuracy: 0.970833
+2025-06-20 14:43:41,202 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:43:41,202 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:43:41,202 - Model - INFO - Save model...
+2025-06-20 14:43:41,202 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:43:41,239 - Model - INFO - Epoch 46 (46/50):
+2025-06-20 14:44:52,401 - Model - INFO - Train Instance Accuracy: 0.954167
+2025-06-20 14:44:57,947 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:44:57,947 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:44:57,947 - Model - INFO - Save model...
+2025-06-20 14:44:57,947 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:44:57,973 - Model - INFO - Epoch 47 (47/50):
+2025-06-20 14:46:09,000 - Model - INFO - Train Instance Accuracy: 0.970833
+2025-06-20 14:46:14,589 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:46:14,589 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:46:14,589 - Model - INFO - Save model...
+2025-06-20 14:46:14,589 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:46:14,623 - Model - INFO - Epoch 48 (48/50):
+2025-06-20 14:47:25,991 - Model - INFO - Train Instance Accuracy: 0.991667
+2025-06-20 14:47:31,722 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:47:31,723 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:47:31,723 - Model - INFO - Save model...
+2025-06-20 14:47:31,723 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:47:31,751 - Model - INFO - Epoch 49 (49/50):
+2025-06-20 14:48:42,930 - Model - INFO - Train Instance Accuracy: 0.979167
+2025-06-20 14:48:48,540 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:48:48,540 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:48:48,541 - Model - INFO - Save model...
+2025-06-20 14:48:48,541 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:48:48,577 - Model - INFO - Epoch 50 (50/50):
+2025-06-20 14:50:00,235 - Model - INFO - Train Instance Accuracy: 0.983333
+2025-06-20 14:50:05,908 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:50:05,908 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2025-06-20 14:50:05,908 - Model - INFO - Save model...
+2025-06-20 14:50:05,908 - Model - INFO - Saving at C:\Users\e1825\Desktop\BiYeLunWen\Pointnet_Pointnet2_pytorch-master\log\classification\2025-06-20_13-44\checkpoints/best_model.pth
+2025-06-20 14:50:05,951 - Model - INFO - End of training...
