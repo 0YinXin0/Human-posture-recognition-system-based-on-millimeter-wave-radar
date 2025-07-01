@@ -4,3 +4,5 @@
 硬件设备使用纳雷科技SR75雷达和创芯科技CAN盒子。
 程序使用Python + ttk bootstrap + ttk 开发GUI。对静态姿态几乎没有识别能力。
 attitude.txt里面保存的是训练的模型包含的姿态类型，如果你训练的模型姿态有所不同，务必检查Window.py、test_data.py、Posture_Recognition.py因为其中包含有模型识别的代码需要修改其中姿态的类型数量，同时修改attitude.txt。
+系统的文件入口 ：Window.py
+模型训练点云文件的预处理程序: PointNet model training data preprocessor.py
